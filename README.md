@@ -26,4 +26,10 @@ Give a ⭐️ if this project helped you!
 
 ---
 
+## Credits
+
+- https://fakestoreapi.com/
+
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
