@@ -14,12 +14,12 @@ const useStyles = makeStyles(() => ({
   root: {
     width: "100vw",
   },
-  appbar: { background: "none", color: "black" },
+  appbar: {},
   title: {
     flexGrow: 1,
   },
   button: {
-    color: "black",
+    color: "white",
     margin: "0.5rem",
   },
 }));
@@ -28,7 +28,7 @@ const NavBar = () => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <AppBar position="static" className={classes.appbar}>
+      <AppBar position="static" className={classes.appbar} color="secondary">
         <Toolbar>
           <IconButton
             edge="start"
