@@ -12,7 +12,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 
 const useStyles = makeStyles(() => ({
   root: {
-    width: "100vw",
+    width: "100%",
   },
   appbar: {},
   title: {
