@@ -21,6 +21,7 @@ const App = () => {
     setItems(items);
     const unique = await [...new Set(items.map((item) => item.category))];
     setItemsCategory(unique);
+    console.log(items);
     // createCategories();
   };
 
