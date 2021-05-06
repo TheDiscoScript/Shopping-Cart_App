@@ -9,6 +9,7 @@ import WomenItems from "../components/items/ItemsWomen";
 import ElectronicsItems from "../components/items/ItemsEle";
 import JeweleryItems from "../components/items/ItemsJew";
 import MenItems from "../components/items/ItemsMen";
+import ItemDetails from "../components/items/ItemDetails";
 
 const useStyles = makeStyles((theme) => ({
   div: {
@@ -52,12 +53,21 @@ const Shop = (props) => {
                     path="/shop/women"
                     render={() => <WomenItems items={props.items} />}
                   />
+                  <Route path="/shop/1" exact render={() => <ItemDetails />} />
+                  <Route
+                    path="/shop/2"
+                    exact
+                    render={() => <div>suckmydick2</div>}
+                  />
+                  <Route
+                    path="/shop/3"
+                    exact
+                    render={() => <WomenItems items={props.items} />}
+                  />
                 </Switch>
               </Grid>
 
-              {/* {props.items.map((item) => (
-              <p key={item.id}>{item.title}</p>
-            ))} */}
+              {/*  */}
             </Paper>
           </Grid>
         </Grid>
