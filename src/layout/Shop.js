@@ -53,16 +53,14 @@ const Shop = (props) => {
                     path="/shop/women"
                     render={() => <WomenItems items={props.items} />}
                   />
-                  <Route path="/shop/1" exact render={() => <ItemDetails />} />
                   <Route
-                    path="/shop/2"
+                    path="/shop/:id"
                     exact
-                    render={() => <div>suckmydick2</div>}
-                  />
-                  <Route
-                    path="/shop/3"
-                    exact
-                    render={() => <WomenItems items={props.items} />}
+                    //params = stackoverflow https://stackoverflow.com/questions/45898789/react-router-pass-param-to-component
+                    //Thanks Win
+                    render={(params) => (
+                      <ItemDetails items={props.items} {...params} />
+                    )}
                   />
                 </Switch>
               </Grid>
