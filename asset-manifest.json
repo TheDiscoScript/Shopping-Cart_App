@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/shopping-cart_app/static/css/main.3926481d.chunk.css",
-    "main.js": "/shopping-cart_app/static/js/main.c362c774.chunk.js",
-    "main.js.map": "/shopping-cart_app/static/js/main.c362c774.chunk.js.map",
-    "runtime-main.js": "/shopping-cart_app/static/js/runtime-main.3c983767.js",
-    "runtime-main.js.map": "/shopping-cart_app/static/js/runtime-main.3c983767.js.map",
-    "static/js/2.9b8be753.chunk.js": "/shopping-cart_app/static/js/2.9b8be753.chunk.js",
-    "static/js/2.9b8be753.chunk.js.map": "/shopping-cart_app/static/js/2.9b8be753.chunk.js.map",
-    "index.html": "/shopping-cart_app/index.html",
-    "static/css/main.3926481d.chunk.css.map": "/shopping-cart_app/static/css/main.3926481d.chunk.css.map",
-    "static/js/2.9b8be753.chunk.js.LICENSE.txt": "/shopping-cart_app/static/js/2.9b8be753.chunk.js.LICENSE.txt",
-    "static/media/home.68a36d9a.jpg": "/shopping-cart_app/static/media/home.68a36d9a.jpg"
+    "main.css": "/Shopping-Cart_App/static/css/main.3926481d.chunk.css",
+    "main.js": "/Shopping-Cart_App/static/js/main.c362c774.chunk.js",
+    "main.js.map": "/Shopping-Cart_App/static/js/main.c362c774.chunk.js.map",
+    "runtime-main.js": "/Shopping-Cart_App/static/js/runtime-main.82926930.js",
+    "runtime-main.js.map": "/Shopping-Cart_App/static/js/runtime-main.82926930.js.map",
+    "static/js/2.9b8be753.chunk.js": "/Shopping-Cart_App/static/js/2.9b8be753.chunk.js",
+    "static/js/2.9b8be753.chunk.js.map": "/Shopping-Cart_App/static/js/2.9b8be753.chunk.js.map",
+    "index.html": "/Shopping-Cart_App/index.html",
+    "static/css/main.3926481d.chunk.css.map": "/Shopping-Cart_App/static/css/main.3926481d.chunk.css.map",
+    "static/js/2.9b8be753.chunk.js.LICENSE.txt": "/Shopping-Cart_App/static/js/2.9b8be753.chunk.js.LICENSE.txt",
+    "static/media/home.68a36d9a.jpg": "/Shopping-Cart_App/static/media/home.68a36d9a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3c983767.js",
+    "static/js/runtime-main.82926930.js",
     "static/js/2.9b8be753.chunk.js",
     "static/css/main.3926481d.chunk.css",
     "static/js/main.c362c774.chunk.js"
