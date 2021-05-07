@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Checkout from "./checkout/Checkout";
 import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
@@ -129,7 +131,7 @@ const Cart = (props) => {
             Total cost: {props.total()} €
           </Typography>
           <Divider className={classes.divider2} />
-          <Link to="/checkout">
+          <Link to="/cart/checkout">
             <Button
               variant="contained"
               color="primary"
@@ -144,7 +146,16 @@ const Cart = (props) => {
     );
   };
 
-  return <>{decider()}</>;
+  return (
+    <>
+      <Router>
+        <Switch>
+          <Route path="/cart" exact render={() => decider()} />
+          <Route path="/cart/checkout" render={() => <Checkout />} />
+        </Switch>
+      </Router>
+    </>
+  );
 };
 
 export default Cart;
