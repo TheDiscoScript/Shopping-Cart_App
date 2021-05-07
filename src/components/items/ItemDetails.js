@@ -75,8 +75,19 @@ const ItemDetails = (props) => {
                   label="Quantity"
                   type="number"
                   inputProps={{ min: 1 }}
+                  onChange={(event) =>
+                    (filteredItem.amount = parseInt(event.target.value))
+                  }
                 />
-                <IconButton color="primary" aria-label="add to shopping cart">
+                <IconButton
+                  onClick={() => {
+                    props.addItem(filteredItem.id);
+                    console.log(filteredItem);
+                  }}
+                  id={filteredItem.id}
+                  color="primary"
+                  aria-label="add to shopping cart"
+                >
                   <AddShoppingCartIcon style={{ fontSize: "3rem" }} />
                 </IconButton>
               </Box>

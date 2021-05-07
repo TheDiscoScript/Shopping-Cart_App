@@ -37,7 +37,7 @@ const Item = (props) => {
             alt="pic"
             src={props.items.image}
             onClick={(event) => {
-              event.stopPropagation();
+              //event.stopPropagation();
               console.log(event.target.closest(".MuiPaper-root").id);
             }}
           />
@@ -45,7 +45,7 @@ const Item = (props) => {
             variant="h5"
             gutterBottom
             onClick={(event) => {
-              event.stopPropagation();
+              //event.stopPropagation();
               console.log(event.target.closest(".MuiPaper-root").id);
             }}
           >
@@ -55,7 +55,7 @@ const Item = (props) => {
             variant="h6"
             gutterBottom
             onClick={(event) => {
-              event.stopPropagation();
+              //  event.stopPropagation();
               console.log(event.target.closest(".MuiPaper-root").id);
             }}
           >

@@ -26,7 +26,7 @@ const useStyles = makeStyles(() => ({
   },
 }));
 
-const StyledBadge = withStyles((theme) => ({
+const StyledBadge = withStyles(() => ({
   badge: {
     color: "blue",
     right: -3,
@@ -36,7 +36,7 @@ const StyledBadge = withStyles((theme) => ({
   },
 }))(Badge);
 //todo props number of items in cart
-const NavBar = () => {
+const NavBar = (props) => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
@@ -82,7 +82,10 @@ const NavBar = () => {
               (0)
             </Button> */}
             <IconButton className={classes.button} aria-label="cart">
-              <StyledBadge badgeContent={1} color="secondary">
+              <StyledBadge
+                badgeContent={props.itemsNumber.length}
+                color="secondary"
+              >
                 <ShoppingCartIcon />
               </StyledBadge>
             </IconButton>

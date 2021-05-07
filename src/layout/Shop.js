@@ -59,7 +59,11 @@ const Shop = (props) => {
                     //params = stackoverflow https://stackoverflow.com/questions/45898789/react-router-pass-param-to-component
                     //Thanks Win
                     render={(params) => (
-                      <ItemDetails items={props.items} {...params} />
+                      <ItemDetails
+                        items={props.items}
+                        {...params}
+                        addItem={props.addItem}
+                      />
                     )}
                   />
                 </Switch>
