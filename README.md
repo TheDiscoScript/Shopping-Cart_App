@@ -1,8 +1,13 @@
 # Welcome to Shopping Cart Application 👋
 
-![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)
+## Description
 
-> Project which is build with use of react-router.
+Basic web e-shop in which you can browse shop, select categories and add items to your shopping cart.
+Project made as part of [The Odin Project's curriculum](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/shopping-cart).
+
+## Development
+
+- React, React router, JS
 
 ## Install
 
